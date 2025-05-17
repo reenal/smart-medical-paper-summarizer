@@ -4,7 +4,8 @@ from langchain.document_loaders import PyPDFLoader
 
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-PDF_PATH = "data/Understanding_Climate_Change.pdf"
+PDF_PATH = "data/your_pdf.pdf"
+PDF_FILES_PATH = "data/"
 
 
 
