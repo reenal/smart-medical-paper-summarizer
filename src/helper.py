@@ -23,10 +23,12 @@ def load_pdf_files(path: str):
 
 def load_pdf(path: str):
     """
-    Load a PDF document using LangChain's PyPDFLoader.
-    """
-    pass
+    Load a single PDF document using LangChain's PyPDFLoader.
+    """    
+    loader = PyPDFLoader(path)
+    pdf_pages = loader.load_and_split()
 
+    return pdf_pages
 
 def split_documents(docs):
     """
