@@ -26,5 +26,5 @@ def fetch_pubmed(query, max_results=10):
 
 # Example usage
 papers = fetch_pubmed(query, max_results=max_results)
-with open("pubmed_papers.json", "w") as f:
+with open("data/pubmed_papers.json", "w") as f:
     json.dump(papers, f, indent=2)
