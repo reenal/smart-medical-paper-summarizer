@@ -1,1 +1,0 @@
-# need to add reranking feature: https://docs.cohere.com/v2/docs/rerank-on-langchain
